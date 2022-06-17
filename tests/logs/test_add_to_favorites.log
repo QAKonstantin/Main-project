@@ -1,0 +1,15 @@
+===> Test test_add_to_favorites started at 2022-05-19 14:35:46
+Browser:chrome
+[2022-05-19 14:35:52] - Header - INFO - Check if element ('xpath', "//a[text()=' Товары с уценкой ']") was found
+[2022-05-19 14:35:53] - Header - INFO - Clicking on element: ('xpath', "//a[text()=' Товары с уценкой ']")
+[2022-05-19 14:35:55] - Trades - INFO - Check if elements ('css selector', '.favorite__selected .icon') were found
+[2022-05-19 14:35:57] - Trades - INFO - Check if elements ('css selector', '.favorite .icon') were found
+[2022-05-19 14:35:57] - Header - INFO - Check if element ('css selector', '.user-info') was found
+[2022-05-19 14:35:59] - Trades - INFO - Check if element ('css selector', '.ant-switch') was found
+[2022-05-19 14:36:00] - Trades - INFO - Check if element ('css selector', '.favorite__selected .icon') was found
+[2022-05-19 14:36:00] - Trades - INFO - Check if element ('css selector', '.favorite__selected .icon') was found
+[2022-05-19 14:36:01] - Trades - INFO - Clicking on element: ('css selector', '.favorite__selected .icon')
+[2022-05-19 14:36:01] - Header - INFO - Check if element ('css selector', '.user-info') was found
+[2022-05-19 14:36:04] - Trades - INFO - Check if element ('css selector', '.ant-switch') was found
+[2022-05-19 14:36:06] - Trades - INFO - Check if elements ('css selector', '.favorite__selected .icon') were found
+===> Test test_add_to_favorites finished at 2022-05-19 14:36:06

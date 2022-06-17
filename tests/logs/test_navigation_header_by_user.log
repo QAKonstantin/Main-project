@@ -1,0 +1,9 @@
+===> Test test_navigation_header_by_user started at 2022-06-16 17:37:32
+Browser:chrome
+[2022-06-16 17:37:37] - Header - INFO - Нажать на элемент: ('xpath', "//a[text()=' Товары с уценкой ']")
+[2022-06-16 17:37:49] - Header - INFO - Проверить наличие элемента ('css selector', '.auction-title-text')
+[2022-06-16 17:37:50] - Header - INFO - Проверить наличие элемента ('xpath', "//a[text()=' Помощь ']")
+[2022-06-16 17:37:54] - Header - INFO - Проверить наличие элемента ('css selector', '.content .top-slider-item__title')
+[2022-06-16 17:37:54] - Header - INFO - Проверить наличие элемента ('xpath', "//a[text()=' Мои заказы ']")
+[2022-06-16 17:37:59] - Header - INFO - Проверить наличие элемента ('css selector', '.orders .header')
+===> Test test_navigation_header_by_user finished at 2022-06-16 17:38:02

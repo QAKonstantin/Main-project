@@ -1,0 +1,4 @@
+===> Test test_auth_with_cookie started at 2022-06-16 17:35:07
+Browser:chrome
+[2022-06-16 17:35:12] - MainPage - INFO - Проверить наличие элемента ('css selector', '.auth-sso .auth')
+===> Test test_auth_with_cookie finished at 2022-06-16 17:35:14

@@ -1,0 +1,10 @@
+===> Test test_authorization started at 2022-06-16 17:35:08
+Browser:chrome
+[2022-06-16 17:35:09] - MainPage - INFO - Нажать на элемент: ('css selector', '.auth-sso .unAuthorized')
+[2022-06-16 17:35:10] - MainPage - INFO - Проверить наличие элемента ('css selector', '#username')
+[2022-06-16 17:35:11] - MainPage - INFO - Ввести 'gpn-s-test+user13@yandex.ru'
+[2022-06-16 17:35:13] - MainPage - INFO - Проверить наличие элемента ('css selector', '#password')
+[2022-06-16 17:35:13] - MainPage - INFO - Ввести '!618Klip11'
+[2022-06-16 17:35:13] - MainPage - INFO - Нажать на элемент: ('css selector', '#kc-form-buttons')
+[2022-06-16 17:35:15] - MainPage - INFO - Проверить наличие элемента ('css selector', '.auth-sso .auth')
+===> Test test_authorization finished at 2022-06-16 17:35:17

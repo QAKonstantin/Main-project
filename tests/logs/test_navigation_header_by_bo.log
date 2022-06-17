@@ -1,0 +1,18 @@
+===> Test test_navigation_header_by_bo started at 2022-06-16 17:36:27
+Browser:chrome
+[2022-06-16 17:36:34] - Header - INFO - Нажать на элемент: ('xpath', "//a[text()=' Товары с уценкой ']")
+[2022-06-16 17:36:46] - Header - INFO - Проверить наличие элемента ('css selector', '.auction-title-text')
+[2022-06-16 17:36:47] - Header - INFO - Проверить наличие элемента ('xpath', "//a[text()=' Каталог ']")
+[2022-06-16 17:36:51] - Header - INFO - Проверить наличие элемента ('css selector', '.catalog__title')
+[2022-06-16 17:36:51] - Header - INFO - Проверить наличие элемента ('xpath', "//a[text()=' Заказы ']")
+[2022-06-16 17:36:56] - Header - INFO - Проверить наличие элемента ('css selector', '.orders .header')
+[2022-06-16 17:36:57] - Header - INFO - Проверить наличие элемента ('css selector', "use[*|href='/assets/images/sprite.svg#kebab']")
+[2022-06-16 17:36:59] - Header - INFO - Нажать на элемент: ('xpath', "//a[text()=' Договоры ']")
+[2022-06-16 17:37:03] - Header - INFO - Проверить наличие элемента ('css selector', '.auction-title-text')
+[2022-06-16 17:37:03] - Header - INFO - Проверить наличие элемента ('css selector', "use[*|href='/assets/images/sprite.svg#kebab']")
+[2022-06-16 17:37:05] - Header - INFO - Нажать на элемент: ('xpath', "//a[text()=' Контрагенты ']")
+[2022-06-16 17:37:10] - Header - INFO - Проверить наличие элемента ('css selector', '.contragent-list-title-text')
+[2022-06-16 17:37:10] - Header - INFO - Проверить наличие элемента ('css selector', "use[*|href='/assets/images/sprite.svg#kebab']")
+[2022-06-16 17:37:11] - Header - INFO - Нажать на элемент: ('xpath', "//a[text()=' Пользователи ']")
+[2022-06-16 17:37:16] - Header - INFO - Проверить наличие элемента ('css selector', '.content .title')
+===> Test test_navigation_header_by_bo finished at 2022-06-16 17:37:16

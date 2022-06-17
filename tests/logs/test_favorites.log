@@ -1,0 +1,15 @@
+===> Test test_favorites started at 2022-06-16 17:37:28
+Browser:chrome
+[2022-06-16 17:37:33] - Header - INFO - Нажать на элемент: ('xpath', "//a[text()=' Товары с уценкой ']")
+[2022-06-16 17:37:44] - Trades - INFO - Проверить наличие элементов ('css selector', '.favorite__selected .icon')
+[2022-06-16 17:37:49] - Trades - INFO - Проверить наличие элементов ('css selector', '.favorite .icon')
+[2022-06-16 17:37:49] - Trades - INFO - Проверить наличие элементов ('css selector', '.auction-table-name .material-name')
+[2022-06-16 17:37:50] - Auction - INFO - Нажать на элемент: ('css selector', '.add-to-favorite')
+[2022-06-16 17:37:52] - Header - INFO - Проверить наличие элемента ('css selector', '.auth-sso .auth')
+[2022-06-16 17:37:55] - Trades - INFO - Проверить наличие элемента ('css selector', '.ant-switch')
+[2022-06-16 17:37:57] - Trades - INFO - Проверить наличие элементов ('css selector', '.favorite__selected .icon')
+[2022-06-16 17:37:57] - Trades - INFO - Проверить наличие элементов ('css selector', '.favorite__selected .icon')
+[2022-06-16 17:38:01] - Header - INFO - Проверить наличие элемента ('css selector', '.auth-sso .auth')
+[2022-06-16 17:38:05] - Trades - INFO - Проверить наличие элемента ('css selector', '.ant-switch')
+[2022-06-16 17:38:06] - Trades - INFO - Проверить наличие элементов ('css selector', '.favorite__selected .icon')
+===> Test test_favorites finished at 2022-06-16 17:38:11

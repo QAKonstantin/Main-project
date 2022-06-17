@@ -1,0 +1,21 @@
+===> Test test_navigation_footer_by_guest started at 2022-06-16 17:36:07
+Browser:chrome
+[2022-06-16 17:36:07] - Footer - INFO - Проверить наличие элемента ('css selector', '.footer')
+[2022-06-16 17:36:08] - Footer - INFO - Нажать на элемент: ('xpath', "//a[text()='Processor']")
+[2022-06-16 17:36:24] - Footer - INFO - Нажать на элемент: ('xpath', "//a[text()='Inspector']")
+[2022-06-16 17:36:48] - Footer - INFO - Нажать на элемент: ('xpath', "//a[text()='Radar']")
+[2022-06-16 17:36:50] - Footer - INFO - Нажать на элемент: ('xpath', "//a[text()='Element']")
+[2022-06-16 17:36:55] - Footer - INFO - Нажать на элемент: ('xpath', "//a[text()='Isource']")
+[2022-06-16 17:37:00] - Footer - INFO - Нажать на элемент: ('xpath', "//a[text()='Основные задачи Isource']")
+[2022-06-16 17:37:03] - Footer - INFO - Нажать на элемент: ('xpath', "//a[text()='Продукты']")
+[2022-06-16 17:37:06] - Footer - INFO - Нажать на элемент: ('xpath', "//a[text()='Банковские гарантии']")
+[2022-06-16 17:37:09] - Footer - INFO - Нажать на элемент: ('xpath', "//a[text()='Динамическое дисконтирование']")
+[2022-06-16 17:37:12] - Footer - INFO - Нажать на элемент: ('xpath', "//a[text()='Руководство пользователя']")
+[2022-06-16 17:37:12] - Footer - INFO - Нажать на элемент: ('xpath', "//a[text()='Памятка по маркировке']")
+[2022-06-16 17:37:14] - Footer - INFO - Нажать на элемент: ('css selector', '.footer-downloads__expand')
+[2022-06-16 17:37:14] - Footer - INFO - Нажать на элемент: ('xpath', "//a[text()='Инструкция Резерва']")
+[2022-06-16 17:37:14] - Footer - INFO - Нажать на элемент: ('xpath', "//a[text()='Правила Резерва']")
+[2022-06-16 17:37:15] - Footer - INFO - Нажать на элемент: ('xpath', "//a[text()='Политика обработки персональных данных АО ЦЗС']")
+[2022-06-16 17:37:15] - Footer - INFO - Нажать на элемент: ('css selector', '.footer-desing .icon')
+[2022-06-16 17:37:19] - Footer - INFO - Нажать на элемент: ('xpath', "//span[text()='Reserve']")
+===> Test test_navigation_footer_by_guest finished at 2022-06-16 17:37:19
