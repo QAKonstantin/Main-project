@@ -30,6 +30,7 @@ class Header(BasePage):
     def open_subscription_management(self):
         self._move_to_dropdown()
         self.actions.pause(2).click(self._find_element(self.SUBSCRIPTION_MANAGE)).perform()
+        time.sleep(2)
 
     @allure.step("Перейти в Каталог")
     def move_to_catalog(self):
