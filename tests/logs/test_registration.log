@@ -1,0 +1,31 @@
+===> Test test_registration started at 2022-06-16 17:34:21
+Browser:chrome
+[2022-06-16 17:34:21] - MainPage - INFO - Нажать на элемент: ('css selector', '.auth-sso .unAuthorized')
+[2022-06-16 17:34:24] - Keycloak - INFO - Нажать на элемент: ('css selector', "a[onclick='clickYaRegisterLink();']")
+[2022-06-16 17:34:30] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#email')
+[2022-06-16 17:34:30] - Keycloak - INFO - Ввести 'Saunders1969@mailforspam.com'
+[2022-06-16 17:34:30] - Keycloak - INFO - Проверить наличие элемента ('css selector', "[name='user.attributes.mobile']")
+[2022-06-16 17:34:30] - Keycloak - INFO - Ввести '8 (805) 647-7998'
+[2022-06-16 17:34:31] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#lastName')
+[2022-06-16 17:34:31] - Keycloak - INFO - Ввести 'Joshua'
+[2022-06-16 17:34:31] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#firstName')
+[2022-06-16 17:34:31] - Keycloak - INFO - Ввести 'Saunders'
+[2022-06-16 17:34:31] - Keycloak - INFO - Проверить наличие элемента ('css selector', "[name='user.attributes.patronymic']")
+[2022-06-16 17:34:31] - Keycloak - INFO - Ввести 'Joshua'
+[2022-06-16 17:34:32] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#password')
+[2022-06-16 17:34:32] - Keycloak - INFO - Ввести '!618Klip11'
+[2022-06-16 17:34:32] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#password')
+[2022-06-16 17:34:32] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#password-confirm')
+[2022-06-16 17:34:32] - Keycloak - INFO - Ввести '!618Klip11'
+[2022-06-16 17:34:32] - Keycloak - INFO - Нажать на элемент: ('css selector', "[name='user.attributes.generalAgreement']")
+[2022-06-16 17:34:32] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#submit_register')
+[2022-06-16 17:34:32] - Keycloak - INFO - Нажать на кнопку ('css selector', '#submit_register')
+[2022-06-16 17:34:34] - Keycloak - INFO - Проверить наличие элемента ('css selector', '.login-pf-page')
+[2022-06-16 17:34:34] - Keycloak - INFO - Проверить наличие элемента ('css selector', '.card-pf')
+[2022-06-16 17:34:38] - Keycloak - INFO - Нажать на элемент: ('css selector', '#button')
+[2022-06-16 17:34:39] - Keycloak - INFO - Проверить на наличие текста 'Подтверждение регистрации на платформе Isource'
+[2022-06-16 17:34:40] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#messagebody')
+[2022-06-16 17:34:50] - Alerts - INFO - Нажать на элемент: ('css selector', '.ant-modal-close-x')
+[2022-06-16 17:34:51] - Keycloak - INFO - Проверить наличие элемента ('css selector', '.auth-sso .auth')
+[2022-06-16 17:34:54] - Keycloak - INFO - Проверить наличие элемента ('xpath', "//span[text()='Покупатель']")
+===> Test test_registration finished at 2022-06-16 17:34:54

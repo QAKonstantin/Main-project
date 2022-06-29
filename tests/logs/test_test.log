@@ -1,0 +1,4 @@
+===> Test test_test started at 2022-05-13 13:41:16
+Browser:chrome
+[2022-05-13 13:41:19] - Header - INFO - Check if element ('xpath', "//a[text()=' Товары с уценкой ']") was found
+[2022-05-13 13:41:20] - Header - INFO - Clicking on element: ('xpath', "//a[text()=' Товары с уценкой ']")

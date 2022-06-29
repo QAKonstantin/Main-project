@@ -1,0 +1,29 @@
+===> Test test_wh_filled_code started at 2022-06-16 17:35:26
+Browser:chrome
+[2022-06-16 17:35:26] - MainPage - INFO - Нажать на элемент: ('css selector', '.auth-sso .unAuthorized')
+[2022-06-16 17:35:27] - MainPage - INFO - Проверить наличие элемента ('css selector', '#username')
+[2022-06-16 17:35:27] - MainPage - INFO - Ввести 'gpn-s-test+user13@yandex.ru'
+[2022-06-16 17:35:29] - MainPage - INFO - Проверить наличие элемента ('css selector', '#password')
+[2022-06-16 17:35:30] - MainPage - INFO - Ввести '!618Klip11'
+[2022-06-16 17:35:30] - MainPage - INFO - Нажать на элемент: ('css selector', '#kc-form-buttons')
+[2022-06-16 17:35:33] - MainPage - INFO - Проверить наличие элемента ('css selector', '.auth-sso .auth')
+[2022-06-16 17:35:34] - Header - INFO - Проверить наличие элемента ('css selector', '.auth-sso .auth')
+[2022-06-16 17:35:38] - MainPage - INFO - Проверить наличие элемента ('xpath', "//*[contains(text(), ' Справочники ')]")
+[2022-06-16 17:35:41] - Warehouse - INFO - Нажать на элемент: ('xpath', "//*[contains(text(), 'Склады')]")
+[2022-06-16 17:35:42] - Warehouse - INFO - Нажать на элемент: ('css selector', '.add-button-content')
+[2022-06-16 17:35:44] - Warehouse - INFO - Проверить наличие элемента ('css selector', "input[formcontrolname='supplier_search']")
+[2022-06-16 17:35:46] - Warehouse - INFO - Проверить наличие элементов ('css selector', "div[class='ant-select-item-option-content']")
+[2022-06-16 17:35:46] - Warehouse - INFO - Проверить наличие элементов ('css selector', "div[class='ant-select-item-option-content']")
+[2022-06-16 17:35:46] - Warehouse - INFO - Проверить наличие элемента ('css selector', "uxg-dropdown-input[formcontrolname='address_dadata']")
+[2022-06-16 17:35:48] - Warehouse - INFO - Проверить наличие элемента ('css selector', "uxg-dropdown-input[formcontrolname='address_dadata']")
+[2022-06-16 17:35:51] - Warehouse - INFO - Проверить наличие элементов ('css selector', "div[class='app-dropdown-items-item ng-star-inserted']")
+[2022-06-16 17:35:51] - Warehouse - INFO - Проверить наличие элементов ('css selector', "div[class='app-dropdown-items-item ng-star-inserted']")
+[2022-06-16 17:35:51] - Warehouse - INFO - Проверить наличие элемента ('name', 'longitude')
+[2022-06-16 17:35:51] - Warehouse - INFO - Ввести '31.215'
+[2022-06-16 17:35:52] - Warehouse - INFO - Проверить наличие элемента ('name', 'latitude')
+[2022-06-16 17:35:52] - Warehouse - INFO - Ввести '51.125'
+[2022-06-16 17:35:52] - Warehouse - INFO - Проверить наличие элемента ('css selector', "textarea[formcontrolname='extra_conditions']")
+[2022-06-16 17:35:52] - Warehouse - INFO - Ввести 'autotest'
+[2022-06-16 17:35:52] - Warehouse - INFO - Нажать на элемент: ('xpath', "//*[contains(text(), ' Добавить склад ')]")
+[2022-06-16 17:35:56] - Notifications - INFO - Проверить наличие элемента ('css selector', '.notify-list-title')
+===> Test test_wh_filled_code finished at 2022-06-16 17:35:56

@@ -1,0 +1,27 @@
+===> Test test_accreditation_ul_by_user started at 2022-06-16 17:33:07
+Browser:chrome
+[2022-06-16 17:33:07] - MainPage - INFO - Нажать на элемент: ('css selector', '.auth-sso .unAuthorized')
+[2022-06-16 17:33:08] - Keycloak - INFO - Нажать на элемент: ('css selector', "a[onclick='clickYaRegisterLink();']")
+[2022-06-16 17:33:11] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#email')
+[2022-06-16 17:33:11] - Keycloak - INFO - Ввести 'Clark1999@mailforspam.com'
+[2022-06-16 17:33:11] - Keycloak - INFO - Проверить наличие элемента ('css selector', "[name='user.attributes.mobile']")
+[2022-06-16 17:33:11] - Keycloak - INFO - Ввести '+7 718 096 37 45'
+[2022-06-16 17:33:11] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#lastName')
+[2022-06-16 17:33:11] - Keycloak - INFO - Ввести 'Luke'
+[2022-06-16 17:33:12] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#firstName')
+[2022-06-16 17:33:12] - Keycloak - INFO - Ввести 'Clark'
+[2022-06-16 17:33:12] - Keycloak - INFO - Проверить наличие элемента ('css selector', "[name='user.attributes.patronymic']")
+[2022-06-16 17:33:12] - Keycloak - INFO - Ввести 'Luke'
+[2022-06-16 17:33:12] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#password')
+[2022-06-16 17:33:12] - Keycloak - INFO - Ввести '!618Klip11'
+[2022-06-16 17:33:12] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#password')
+[2022-06-16 17:33:12] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#password-confirm')
+[2022-06-16 17:33:12] - Keycloak - INFO - Ввести '!618Klip11'
+[2022-06-16 17:33:12] - Keycloak - INFO - Нажать на элемент: ('css selector', "[name='user.attributes.generalAgreement']")
+[2022-06-16 17:33:13] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#submit_register')
+[2022-06-16 17:33:13] - Keycloak - INFO - Нажать на кнопку ('css selector', '#submit_register')
+[2022-06-16 17:33:19] - Keycloak - INFO - Нажать на элемент: ('css selector', '#button')
+[2022-06-16 17:33:20] - Keycloak - INFO - Проверить на наличие текста 'Подтверждение регистрации на платформе Isource'
+[2022-06-16 17:34:01] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#messagebody')
+[2022-06-16 17:34:12] - Keycloak - WARNING - Не найден элемент по локатору: ('css selector', '#messagebody')
+===> Test test_accreditation_ul_by_user finished at 2022-06-16 17:34:12

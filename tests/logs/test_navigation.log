@@ -1,0 +1,18 @@
+===> Test test_navigation started at 2022-05-13 13:59:14
+Browser:chrome
+[2022-05-13 13:59:18] - Header - INFO - Check if element ('xpath', "//a[text()=' Товары с уценкой ']") was found
+[2022-05-13 13:59:19] - Header - INFO - Clicking on element: ('xpath', "//a[text()=' Товары с уценкой ']")
+[2022-05-13 13:59:21] - Header - INFO - Check if element ('xpath', "//a[text()=' Каталог ']") was found
+[2022-05-13 13:59:21] - Header - INFO - Clicking on element: ('xpath', "//a[text()=' Каталог ']")
+[2022-05-13 13:59:23] - Header - INFO - Check if element ('xpath', "//a[text()=' Заказы ']") was found
+[2022-05-13 13:59:23] - Header - INFO - Clicking on element: ('xpath', "//a[text()=' Заказы ']")
+[2022-05-13 13:59:25] - Header - INFO - Check if element ('css selector', "use[*|href='/assets/images/sprite.svg#kebab']") was found
+[2022-05-13 13:59:27] - Header - INFO - Check if element ('xpath', "//a[text()=' Договоры ']") was found
+[2022-05-13 13:59:27] - Header - INFO - Clicking on element: ('xpath', "//a[text()=' Договоры ']")
+[2022-05-13 13:59:29] - Header - INFO - Check if element ('css selector', "use[*|href='/assets/images/sprite.svg#kebab']") was found
+[2022-05-13 13:59:32] - Header - INFO - Check if element ('xpath', "//a[text()=' Контрагенты ']") was found
+[2022-05-13 13:59:32] - Header - INFO - Clicking on element: ('xpath', "//a[text()=' Контрагенты ']")
+[2022-05-13 13:59:34] - Header - INFO - Check if element ('css selector', "use[*|href='/assets/images/sprite.svg#kebab']") was found
+[2022-05-13 13:59:36] - Header - INFO - Check if element ('xpath', "//a[text()=' Пользователи ']") was found
+[2022-05-13 13:59:36] - Header - INFO - Clicking on element: ('xpath', "//a[text()=' Пользователи ']")
+===> Test test_navigation finished at 2022-05-13 13:59:46

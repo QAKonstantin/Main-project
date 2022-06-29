@@ -1,0 +1,79 @@
+===> Test test_accreditation_ip_by_user started at 2022-06-16 17:34:02
+Browser:chrome
+[2022-06-16 17:34:02] - MainPage - INFO - Нажать на элемент: ('css selector', '.auth-sso .unAuthorized')
+[2022-06-16 17:34:03] - Keycloak - INFO - Нажать на элемент: ('css selector', "a[onclick='clickYaRegisterLink();']")
+[2022-06-16 17:34:05] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#email')
+[2022-06-16 17:34:06] - Keycloak - INFO - Ввести 'Spencer1950@mailforspam.com'
+[2022-06-16 17:34:06] - Keycloak - INFO - Проверить наличие элемента ('css selector', "[name='user.attributes.mobile']")
+[2022-06-16 17:34:06] - Keycloak - INFO - Ввести '8 (798) 333-49-46'
+[2022-06-16 17:34:06] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#lastName')
+[2022-06-16 17:34:06] - Keycloak - INFO - Ввести 'Kelly'
+[2022-06-16 17:34:06] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#firstName')
+[2022-06-16 17:34:06] - Keycloak - INFO - Ввести 'Spencer'
+[2022-06-16 17:34:06] - Keycloak - INFO - Проверить наличие элемента ('css selector', "[name='user.attributes.patronymic']")
+[2022-06-16 17:34:07] - Keycloak - INFO - Ввести 'Kelly'
+[2022-06-16 17:34:07] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#password')
+[2022-06-16 17:34:07] - Keycloak - INFO - Ввести '!618Klip11'
+[2022-06-16 17:34:07] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#password')
+[2022-06-16 17:34:07] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#password-confirm')
+[2022-06-16 17:34:07] - Keycloak - INFO - Ввести '!618Klip11'
+[2022-06-16 17:34:07] - Keycloak - INFO - Нажать на элемент: ('css selector', "[name='user.attributes.generalAgreement']")
+[2022-06-16 17:34:07] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#submit_register')
+[2022-06-16 17:34:07] - Keycloak - INFO - Нажать на кнопку ('css selector', '#submit_register')
+[2022-06-16 17:34:12] - Keycloak - INFO - Нажать на элемент: ('css selector', '#button')
+[2022-06-16 17:34:13] - Keycloak - INFO - Проверить на наличие текста 'Подтверждение регистрации на платформе Isource'
+[2022-06-16 17:34:14] - Keycloak - INFO - Проверить наличие элемента ('css selector', '#messagebody')
+[2022-06-16 17:34:24] - Alerts - INFO - Нажать на элемент: ('css selector', '.ant-modal-close-x')
+[2022-06-16 17:34:25] - Header - INFO - Нажать на элемент: ('xpath', "//a[text()=' Товары с уценкой ']")
+[2022-06-16 17:34:35] - Trades - INFO - Нажать на элемент: ('xpath', "//span[contains(text(), ' Таблица кратко ')]")
+[2022-06-16 17:34:35] - Trades - INFO - Нажать на элемент: ('xpath', "//span[contains(text(), ' Таблица подробно ')]")
+[2022-06-16 17:34:37] - Trades - INFO - Проверить наличие элемента ('css selector', '.accreditation-btn')
+[2022-06-16 17:34:37] - Trades - INFO - Нажать на кнопку ('css selector', '.accreditation-btn')
+[2022-06-16 17:34:37] - Accreditation_step1 - INFO - Проверить наличие элемента ('css selector', "select[formcontrolname='type_id']")
+[2022-06-16 17:34:38] - Accreditation_step1 - INFO - Проверить наличие элемента ('css selector', "input[formcontrolname='inn']")
+[2022-06-16 17:34:38] - Accreditation_step1 - INFO - Ввести '432931921215'
+[2022-06-16 17:34:38] - Accreditation_step1 - INFO - Проверить наличие элемента ('css selector', "input[formcontrolname='ogrn']")
+[2022-06-16 17:34:38] - Accreditation_step1 - INFO - Ввести '165828827405432'
+[2022-06-16 17:34:38] - Accreditation_step1 - INFO - Нажать на элемент: ('xpath', "//span[text()=' Продолжить ']")
+[2022-06-16 17:34:38] - Accreditation_step2 - INFO - Проверить наличие элемента ('css selector', "input[formcontrolname='locality']")
+[2022-06-16 17:34:40] - Accreditation_step2 - INFO - Ввести 'Москва'
+[2022-06-16 17:34:41] - Accreditation_step2 - INFO - Проверить наличие элементов ('css selector', "input[formcontrolname='passport_serial']")
+[2022-06-16 17:34:41] - Accreditation_step2 - INFO - Ввести '12 34 567890'
+[2022-06-16 17:34:41] - Accreditation_step2 - INFO - Проверить наличие элементов ('css selector', "input[formcontrolname='passport_issue_by']")
+[2022-06-16 17:34:41] - Accreditation_step2 - INFO - Ввести 'УФМС России'
+[2022-06-16 17:34:41] - Accreditation_step2 - INFO - Проверить наличие элементов ('css selector', "input[placeholder='Дата выдачи паспорта']")
+[2022-06-16 17:34:41] - Accreditation_step2 - INFO - Ввести '19.06.2015'
+[2022-06-16 17:34:42] - Accreditation_step2 - INFO - Проверить наличие элементов ('css selector', "input[formcontrolname='position']")
+[2022-06-16 17:34:42] - Accreditation_step2 - INFO - Ввести 'Ваша должность в организации'
+[2022-06-16 17:34:42] - Accreditation_step2 - INFO - Проверить наличие элементов ('css selector', "input[formcontrolname='position_genitive']")
+[2022-06-16 17:34:42] - Accreditation_step2 - INFO - Ввести 'Должность руководителя в родительном падеже'
+[2022-06-16 17:34:43] - Accreditation_step2 - INFO - Проверить наличие элементов ('css selector', "input[formcontrolname='bik']")
+[2022-06-16 17:34:43] - Accreditation_step2 - INFO - Ввести '044030814'
+[2022-06-16 17:34:43] - Accreditation_step2 - INFO - Проверить наличие элементов ('css selector', "input[formcontrolname='checking_account']")
+[2022-06-16 17:34:43] - Accreditation_step2 - INFO - Ввести '36857546253315521512'
+[2022-06-16 17:34:44] - Accreditation_step2 - INFO - Проверить наличие элементов ('css selector', "input[formcontrolname='cor_account']")
+[2022-06-16 17:34:44] - Accreditation_step2 - INFO - Ввести '30101810200000000814'
+[2022-06-16 17:34:44] - Accreditation_step2 - INFO - Проверить наличие элементов ('css selector', "input[formcontrolname='bank_name']")
+[2022-06-16 17:34:44] - Accreditation_step2 - INFO - Ввести 'АО «ГОРБАНК»'
+[2022-06-16 17:34:44] - Accreditation_step2 - INFO - Проверить наличие элементов ('css selector', "input[formcontrolname='bank_address']")
+[2022-06-16 17:34:44] - Accreditation_step2 - INFO - Ввести '191186, г Санкт-Петербург, Центральный р-н, ул Итальянская, д 15 литера а'
+[2022-06-16 17:34:45] - Accreditation_step2 - INFO - Проверить наличие элементов ('css selector', "input[formcontrolname='ur_address_index']")
+[2022-06-16 17:34:45] - Accreditation_step2 - INFO - Ввести '111111'
+[2022-06-16 17:34:45] - Accreditation_step2 - INFO - Проверить наличие элементов ('css selector', "input[formcontrolname='ur_address_country']")
+[2022-06-16 17:34:45] - Accreditation_step2 - INFO - Ввести 'Россия_Юр_адрес'
+[2022-06-16 17:34:46] - Accreditation_step2 - INFO - Проверить наличие элементов ('css selector', "input[formcontrolname='ur_address_region']")
+[2022-06-16 17:34:46] - Accreditation_step2 - INFO - Ввести 'Московский_Юр_адрес'
+[2022-06-16 17:34:46] - Accreditation_step2 - INFO - Проверить наличие элементов ('css selector', "input[formcontrolname='ur_address_city']")
+[2022-06-16 17:34:46] - Accreditation_step2 - INFO - Ввести 'Москва_Юр_адрес'
+[2022-06-16 17:34:47] - Accreditation_step2 - INFO - Проверить наличие элементов ('css selector', "input[formcontrolname='ur_address_street']")
+[2022-06-16 17:34:47] - Accreditation_step2 - INFO - Ввести 'Московская_Юр_адрес'
+[2022-06-16 17:34:47] - Accreditation_step2 - INFO - Проверить наличие элементов ('css selector', "input[formcontrolname='ur_address_house']")
+[2022-06-16 17:34:47] - Accreditation_step2 - INFO - Ввести '1_Юр_адрес'
+[2022-06-16 17:34:47] - Accreditation_step2 - INFO - Проверить наличие элементов ('css selector', "input[formcontrolname='ur_address_apartment']")
+[2022-06-16 17:34:47] - Accreditation_step2 - INFO - Ввести '2_Юр_адрес'
+[2022-06-16 17:34:48] - Accreditation_step2 - INFO - Нажать на элемент: ('xpath', "//span[text()=' Продолжить ']")
+[2022-06-16 17:34:50] - Alerts - INFO - Проверить наличие элементов ('css selector', "input[type='checkbox']")
+[2022-06-16 17:34:54] - Notifications - INFO - Проверить наличие элемента ('css selector', '.notify-list-title')
+[2022-06-16 17:34:54] - Notifications - INFO - Нажать на элемент: ('xpath', "//span[text()='Закрыть и очистить']")
+[2022-06-16 17:34:54] - Accreditation_step3 - INFO - Нажать на элемент: ('xpath', "//a[contains(text(), 'правилами работы')]")
+===> Test test_accreditation_ip_by_user finished at 2022-06-16 17:34:55

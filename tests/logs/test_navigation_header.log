@@ -1,0 +1,24 @@
+===> Test test_navigation_header started at 2022-05-26 16:15:38
+Browser:chrome
+[2022-05-26 16:15:41] - Header - INFO - Check if element ('xpath', "//a[text()=' Товары с уценкой ']") was found
+[2022-05-26 16:15:42] - Header - INFO - Double click on element: ('xpath', "//a[text()=' Товары с уценкой ']")
+[2022-05-26 16:15:42] - Header - INFO - Check if element ('css selector', '.auction-title-text') was found
+[2022-05-26 16:15:43] - Header - INFO - Check if element ('xpath', "//a[text()=' Каталог ']") was found
+[2022-05-26 16:15:43] - Header - INFO - Double click on element: ('xpath', "//a[text()=' Каталог ']")
+[2022-05-26 16:15:43] - Header - INFO - Check if element ('css selector', '.catalog__title') was found
+[2022-05-26 16:15:44] - Header - INFO - Check if element ('xpath', "//a[text()=' Заказы ']") was found
+[2022-05-26 16:15:44] - Header - INFO - Clicking on element: ('xpath', "//a[text()=' Заказы ']")
+[2022-05-26 16:15:44] - Header - INFO - Check if element ('css selector', '.orders .header') was found
+[2022-05-26 16:15:45] - Header - INFO - Check if element ('css selector', "use[*|href='/assets/images/sprite.svg#kebab']") was found
+[2022-05-26 16:15:47] - Header - INFO - Check if element ('xpath', "//a[text()=' Договоры ']") was found
+[2022-05-26 16:15:47] - Header - INFO - Clicking on element: ('xpath', "//a[text()=' Договоры ']")
+[2022-05-26 16:15:48] - Header - INFO - Check if element ('css selector', '.auction-title-text') was found
+[2022-05-26 16:15:48] - Header - INFO - Check if element ('css selector', "use[*|href='/assets/images/sprite.svg#kebab']") was found
+[2022-05-26 16:15:49] - Header - INFO - Check if element ('xpath', "//a[text()=' Контрагенты ']") was found
+[2022-05-26 16:15:49] - Header - INFO - Clicking on element: ('xpath', "//a[text()=' Контрагенты ']")
+[2022-05-26 16:15:51] - Header - INFO - Check if element ('css selector', '.contragent-list-title-text') was found
+[2022-05-26 16:15:51] - Header - INFO - Check if element ('css selector', "use[*|href='/assets/images/sprite.svg#kebab']") was found
+[2022-05-26 16:15:52] - Header - INFO - Check if element ('xpath', "//a[text()=' Пользователи ']") was found
+[2022-05-26 16:15:52] - Header - INFO - Clicking on element: ('xpath', "//a[text()=' Пользователи ']")
+[2022-05-26 16:15:53] - Header - INFO - Check if element ('css selector', '.content .title') was found
+===> Test test_navigation_header finished at 2022-05-26 16:15:53
